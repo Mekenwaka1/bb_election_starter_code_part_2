@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    {% load static %}
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"
+    ></script>
+    <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+  </head>
+  <body>
+    <h1>Bikini Bottom Election</h1>
+    <ul id="candidates"></ul>
+    <a href="/">Refresh</a>
+  </body>
+</html>
